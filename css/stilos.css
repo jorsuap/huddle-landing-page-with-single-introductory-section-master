@@ -20,14 +20,16 @@ body{
     align-items: center;
     flex-direction: column;
     position: relative;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 
 .logo{
     margin-bottom: 50px;
+    padding: 0 50px;
 }
 .main{
     display: flex;
+    padding: 0 30px;
 }
 /* .imagen{
     margin-right: 50px;
