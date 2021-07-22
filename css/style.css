@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?jqzacg');
+  src: url('fonts/icomoon.eot?jqzacg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jqzacg') format('truetype'),
+    url('fonts/icomoon.woff?jqzacg') format('woff'),
+    url('fonts/icomoon.svg?jqzacg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: 100;
+  font-variant: normal;
+  font-size: 40px;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e902";
+  font-size: 35px;
+}
+
+.icon-social-twitter-circular:before {
+  content: "\e900";
+}
+
+.icon-social-facebook-circular:before {
+  content: "\e901";
+}
+
+.icon-instagram:hover {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+}
+
+.icon-social-twitter-circular:hover {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+}
+
+.icon-social-facebook-circular:hover {
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+}
