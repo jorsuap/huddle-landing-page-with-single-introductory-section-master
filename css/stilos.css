@@ -20,6 +20,7 @@ body{
     align-items: center;
     flex-direction: column;
     position: relative;
+    padding: 0 30px;
 }
 
 .logo{
@@ -66,6 +67,11 @@ body{
     text-align: center;
 }
 
-@media(max-width:1024){
-    
+@media(max-width:1024px){
+    #imagen, .picture{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
