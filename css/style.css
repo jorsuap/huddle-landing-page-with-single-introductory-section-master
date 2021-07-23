@@ -54,3 +54,15 @@
   cursor: pointer;
   color: hsl(300, 69%, 71%);
 }
+
+@media(max-width:500px){
+  .icon-instagram::before{
+    font-size: 25px;
+  }
+  .icon-social-twitter-circular{
+    font-size: 30px;
+  }
+  .icon-social-facebook-circular{
+    font-size: 30px;
+  }
+}
